@@ -1,31 +1,23 @@
-
-> Diese Seite bei [https://mkleinsb.github.io/pxt-gatorlog-calliope/](https://mkleinsb.github.io/pxt-gatorlog-calliope/) öffnen
-
 ## Als Erweiterung verwenden
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 
-* öffne [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* öffne [https://makecode.calliope.cc/](https://makecode.calliope.cc/)
 * klicke auf **Neues Projekt**
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **https://github.com/mkleinsb/pxt-gatorlog-calliope** suchen und importieren
 
-## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/mkleinsb/pxt-gatorlog-calliope/workflows/MakeCode/badge.svg)
+## Anschluss des Sparkfun gator:log
 
-Um dieses Repository in MakeCode zu bearbeiten.
+* verbinde GND mit - am Calliope
+* verbinde 3V3 mit + am Calliope
+* verbinde RX  mit  P0
+* verbinde TX  mit  P1
+* verbinde RST mit  P2
 
-* öffne [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* klicke auf **Importieren** und dann auf **Importiere URL**
-* füge **https://github.com/mkleinsb/pxt-gatorlog-calliope** ein und klicke auf Importieren
-
-## Blockvorschau
-
-Dieses Bild zeigt den Blockcode vom letzten Commit im Master an.
-Die Aktualisierung dieses Bildes kann einige Minuten dauern.
-
-![Eine gerenderte Ansicht der Blöcke](https://github.com/mkleinsb/pxt-gatorlog-calliope/raw/master/.github/makecode/blocks.png)
+* gator:log initialisieren
 
 #### Metadaten (verwendet für Suche, Rendering)
 
-* for PXT/microbit
+* for PXT/calliope
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>

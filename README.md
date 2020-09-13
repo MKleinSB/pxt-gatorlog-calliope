@@ -17,6 +17,20 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 
 * gator:log initialisieren
 
+## Basic usage
+
+```blocks
+// initialize gatorlog and write 400 times the lightlevel to a file
+gatorLog.begin()
+gatorLog.openFile("Lichtstaerke")
+for (let index = 0; index < 400; index++) {
+    gatorLog.writeLine("LS " + input.lightLevel())
+    basic.pause(150)
+}
+basic.showIcon(IconNames.Yes)
+```
+
+
 #### Metadaten (verwendet für Suche, Rendering)
 
 * for PXT/calliope

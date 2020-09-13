@@ -1,6 +1,6 @@
 {
     "name": "pxt-gatorlog-calliope",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Save Data to microSD with gator:log",
     "dependencies": {
         "core": "*",
